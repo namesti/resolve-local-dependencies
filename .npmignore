@@ -1,0 +1,74 @@
+# VCS
+.git
+.gitignore
+
+# Node / diagnostics
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.tgz
+
+# Tooling configs (not needed at runtime)
+.c8rc.json
+.eslintrc
+.eslintrc.*
+eslint.config.js
+.eslintignore
+
+# Coverage / reports
+coverage
+.nyc_output
+
+# Tests & fixtures
+test
+tests
+__tests__
+*.spec.js
+*.test.js
+fixtures
+mock
+mocks
+
+# Source maps (if you only ship compiled code)
+*.map
+
+# Build & cache
+dist
+build
+.cache
+.tmp
+.temp
+tsconfig.tsbuildinfo
+
+# Editors / IDE
+.vscode
+.idea
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env / credentials
+.env*
+!.env.example
+
+# CI / configs not needed at runtime
+.github
+.azure-pipelines.yml
+.circleci
+.travis.yml
+appveyor.yml
+
+# Misc
+docs
+examples
+scripts
+benchmark
+benchmarks
+
+# TypeScript sources if only emitting JS to lib (uncomment if applicable)
+# src
+# *.ts
+# *.tsx
