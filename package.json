@@ -22,7 +22,7 @@
         "node_modules",
         "cli"
     ],
-    "author": "",
+    "author": "namesti",
     "license": "MIT",
     "devDependencies": {
         "c8": "^10.1.3",
