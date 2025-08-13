@@ -27,5 +27,13 @@
     "devDependencies": {
         "c8": "^10.1.3",
         "eslint": "^9.33.0"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/namesti/resolve-local-dependencies.git"
+    },
+    "bugs": {
+        "url": "https://github.com/namesti/resolve-local-dependencies/issues"
+    },
+    "homepage": "https://github.com/namesti/resolve-local-dependencies#readme"
 }
